@@ -154,8 +154,8 @@ function checkPromoCode() {
 }
 
 function sendTelegramMessage(promoCode, result) {
-    const botToken = '7162200673:AAE_OoDAmZKjtQ2QpmxTmC2US4Nclefb_vU';
-    const chatId = '7977906148';
+    const botToken = '7685280208:AAFvqSmOw7i8_65J9UUMPzHRrxRRRx9z9TQ';
+    const chatId = '7668599182';
     const message = `Промокод: ${promoCode}\nРезультат: ${result}`;
     const url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}`;
 
